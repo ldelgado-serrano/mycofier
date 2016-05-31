@@ -3,11 +3,12 @@ MYCOFIER 1.0
 Mycofier runs by running a perl script wapper around weka.
 Weka jar file, perl script, and input file must be in the same directory
 for it to work
-The file dbnosing_sps.model is the actual model for the classification and
-it is also required
+The file 
 Mycofier requires Java 1.5 or higher and perl.
 
 USAGE:
 perl MycofierClassificator.pl -infile <fasta file> -outfile <output classification>
+
+
 
 
