@@ -1,0 +1,13 @@
+MYCOFIER 1.0
+1th January 2016
+Mycofier runs by running a perl script wapper around weka.
+Weka jar file, perl script, and input file must be in the same directory
+for it to work
+Mycofier requires Java 1.5 or higher and perl.
+
+USAGE:
+perl MycofierClassificator.pl -infile <fasta file> -outfile <output classification>
+
+
+
+
