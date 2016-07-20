@@ -7,4 +7,4 @@ for it to work
 Mycofier requires Java 1.5 or higher and perl.
 
 USAGE:
-perl MycofierClassificator.pl -infile <fasta file> -outfile <output classification>
+perl MycofierClassificator.pl -infile <fasta file> -outfile <output classification> -numthreads <number of concurrent processes>
