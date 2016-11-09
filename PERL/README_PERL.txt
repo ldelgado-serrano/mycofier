@@ -23,11 +23,8 @@ Which can be installed from the command line as follows:
 > sudo perl -MCPAN -e shell
 cpan> install Getopt::Long
 cpan> install Algorithm:NaiveBayes
-cpan> install Threads;
+cpan> install threads;
 cpan> install Thread::Queue
-
- 
-
 
 
 

@@ -10,7 +10,7 @@ my $model = "dbnosing_sps.model.fasta";
 use strict;
 use Getopt::Long;
 use Algorithm::NaiveBayes;
-use Threads;
+use threads;
 use Thread::Queue;
 use Fcntl qw/:flock/; 
 
