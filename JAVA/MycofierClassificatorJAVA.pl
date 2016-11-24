@@ -25,7 +25,7 @@ in the file to produce an classification based on the Naive Bayes Classification
 IMPORTANT: Fasta identifiers must be unique for each sequence, with NO spaces.
 
 USAGE:
-perl MycofierClassificator.pl -infile <fasta file> -outfile <output classification> -numthreads <number of concurrent processes>";
+perl MycofierClassificatorJAVA.pl -infile <fasta file> -outfile <output classification> -numthreads <number of concurrent processes>";
 
 unless (-f $infile){
     die "$USAGE\n";}

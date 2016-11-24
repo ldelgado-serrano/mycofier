@@ -1,6 +1,6 @@
 MYCOFIER 1.0
 1th January 2016
-PPERL implementation of Mycofier.
+PERL implementation of Mycofier.
 For it to work you need the following:
 
 File model: dbnosing_sps.model.fasta
@@ -13,20 +13,15 @@ perl MycofierClassificatorPERL.pl -infile <fasta file> -outfile <output classifi
 
 
 PERL Library requirements:
-Getopt::Long;
-Algorithm::NaiveBayes;
-Threads;
-Thread::Queue;
+Getopt::Long
+Algorithm::NaiveBayes
+Threads
+Thread::Queue
 
 Which can be installed from the command line as follows:
 
 > sudo perl -MCPAN -e shell
 cpan> install Getopt::Long
 cpan> install Algorithm:NaiveBayes
-cpan> install threads;
+cpan> install threads
 cpan> install Thread::Queue
-
-
-
-
-
